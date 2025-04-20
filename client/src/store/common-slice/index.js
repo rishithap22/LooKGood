@@ -10,7 +10,7 @@ export const getFeatureImages = createAsyncThunk(
   "/order/getFeatureImages",
   async () => {
     const response = await axios.get(
-      `https://lookgood.onrender.com/api/common/feature/get`
+      `https://lookgood-jd6d.onrender.com/api/common/feature/get`
     );
 
     return response.data;
@@ -21,7 +21,7 @@ export const addFeatureImage = createAsyncThunk(
   "/order/addFeatureImage",
   async (image) => {
     const response = await axios.post(
-      `https://lookgood.onrender.com/api/common/feature/add`,
+      `https://lookgood-jd6d.onrender.com/api/common/feature/add`,
       { image }
     );
 

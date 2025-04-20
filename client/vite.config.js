@@ -13,7 +13,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "https://lookgood.onrender.com",
+        target: "https://lookgood-jd6d.onrender.com",
         changeOrigin: true,
         secure: false,
       },

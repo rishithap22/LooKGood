@@ -22,7 +22,8 @@
         },
         {
           "key": "Access-Control-Allow-Origin",
-          "value": "https://look-good.vercel.app/"
+          "value": "https://look-good-vert.vercel.app
+/"
         },
         {
           "key": "Access-Control-Allow-Methods",

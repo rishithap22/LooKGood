@@ -2,7 +2,7 @@ import React, { useEffect, useState, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import { VolumeX, Volume2 } from "lucide-react";
-const backendUrl = "https://lookgood.onrender.com"
+const backendUrl = "https://lookgood-jd6d.onrender.com"
 
 function VideoSection({ uniqueKey, numAds }) {
   const navigate = useNavigate();
